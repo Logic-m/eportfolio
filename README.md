@@ -58,7 +58,7 @@ This portfolio is organized by internship level, with **2 of 3 tasks completed p
 |---|---|---|---|
 | **1. Regression Analysis** | Built a linear regression model predicting AAPL's closing price from its opening price. Achieved **R² = 0.997**. | Python, scikit-learn, pandas | [🔗 View Project](https://github.com/YOUR-USERNAME/codveda-level2-regression) |
 | **2. Time Series Analysis** | Decomposed AAPL's 2014–2017 price series into trend, seasonality, and residuals; applied moving-average smoothing. | Python, pandas, matplotlib, statsmodels | [🔗 View Project](https://github.com/YOUR-USERNAME/codveda-level2-timeseries) |
-| **3. Clustering Analysis (K-Means)** | Grouped 485 stocks into 4 risk/return clusters using K-Means, standardized features, and the elbow method. | Python, scikit-learn, matplotlib, seaborn | [🔗 View Project](https://github.com/YOUR-USERNAME/codveda-level2-clustering) |
+| **3. Clustering Analysis (K-Means)** | Grouped 485 stocks into 4 risk/return clusters using K-Means, standardized features, and the elbow method. | Python, scikit-learn, matplotlib, seaborn | [🔗 View Project][(https://github.com/YOUR-USERNAME/codveda-level2-clustering)](https://github.com/Logic-m/stock-Analytics/blob/main/clustering.ipynb) |
 
 ### 📸 Level 2 Highlights
 
