@@ -3,37 +3,376 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Mosimanegape Majasi | Data Analyst Portfolio</title>
-      
-    <!-- Add your favicon here. You can generate one at realfavicongenerator.net -->
-    <link rel="icon" type="image/png" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/favicon-32x32.png">
     
-    <!-- Google Fonts for Elegant Typography -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <!-- Your Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px 50px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+            margin-bottom: 25px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 12px;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #4fc3f7;
+            transform: translateY(-3px);
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            background: #0f3460;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 16px 24px;
+            font-weight: 400;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #1a1a2e;
+        }
+
+        /* ===== SECTIONS ===== */
+        .section {
+            padding: 70px 0;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+            color: #1a1a2e;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #4fc3f7;
+            margin: 12px auto 0;
+        }
+
+        /* ===== ABOUT ===== */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .profile-photo {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #4fc3f7;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            margin: 0 auto;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .about-text p {
+            margin-bottom: 18px;
+            font-size: 1.05rem;
+            color: #444;
+        }
+
+        /* ===== PROJECTS ===== */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #e0e0e0;
+        }
+
+        .project-card-content {
+            padding: 25px;
+        }
+
+        .project-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 12px;
+            color: #1a1a2e;
+        }
+
+        .project-card p {
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .project-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0f3460;
+            color: white;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #1a1a2e;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #0f3460;
+            color: #0f3460;
+        }
+
+        .btn-secondary:hover {
+            background: #0f3460;
+            color: white;
+        }
+
+        /* ===== SKILLS ===== */
+        .skills-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-column {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+
+        .skill-header {
+            margin-bottom: 20px;
+        }
+
+        .skill-header i {
+            font-size: 2.2rem;
+            color: #4fc3f7;
+            margin-bottom: 12px;
+        }
+
+        .skill-header h3 {
+            font-size: 1.3rem;
+            color: #1a1a2e;
+        }
+
+        .skill-list {
+            list-style: none;
+            text-align: left;
+        }
+
+        .skill-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            color: #444;
+        }
+
+        .skill-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* ===== CONTACT ===== */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        }
+
+        .contact-form > p {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #4fc3f7;
+        }
+
+        .contact-form .btn {
+            width: 100%;
+            padding: 14px;
+            font-size: 1.05rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+            font-size: 0.95rem;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                padding: 14px 16px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<!-- HEADER SECTION -->
+<!-- HEADER -->
 <header>
     <div class="container">
         <h1>Mosimanegape Majasi</h1>
         <p>Data Analyst | Power BI Developer | Business Intelligence</p>
         <div class="social-links">
-            <!-- Update these links with your actual profiles -->
             <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/Logic-m" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="[YOUR_YOUTUBE_URL]" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="assets/Mosimanegape_Majasi_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+            <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
         </div>
     </div>
 </header>
@@ -50,34 +389,34 @@
     </div>
 </nav>
 
-<!-- ABOUT SECTION -->
+<!-- ABOUT -->
 <section id="about" class="section">
     <div class="container">
         <h2>About Me</h2>
         <div class="about-content">
-            <!-- Replace with your profile photo in assets/images/ -->
-            <img src="assets/images/profile-placeholder.jpg" alt="Mosimanegape Majasi" class="profile-photo">
+            <!-- Replace the src with your photo later if you want -->
+            <img src="https://via.placeholder.com/220x220/0f3460/ffffff?text=MM" alt="Mosimanegape Majasi" class="profile-photo">
+            
             <div class="about-text">
                 <p>I'm a data analyst passionate about turning raw transactional data into clear, actionable insights. I specialize in building interactive Power BI dashboards that help stakeholders understand customer behavior, revenue drivers, and segmentation patterns.</p>
-                <p>My recent work focuses on retail customer analytics — analyzing purchasing patterns, subscription impact, category performance, and seasonal trends. I enjoy creating clean data models, writing effective DAX measures, and designing dashboards that support better business decisions.</p>
+                <p>My recent work focuses on retail customer analytics — analyzing purchasing patterns, subscription impact, category performance, and seasonal trends using DAX, Power Query, and clean data modeling.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- PROJECTS SECTION -->
+<!-- PROJECTS -->
 <section id="projects" class="section">
     <div class="container">
         <h2>My Projects</h2>
         <div class="projects-grid">
 
-            <!-- Project 1 - Featured -->
+            <!-- Project 1 -->
             <div class="project-card">
-                <!-- Add a screenshot of your dashboard (e.g. the one from the repo) to assets/images/ -->
-                <img src="assets/images/customer-shopping-behavior-dashboard.png" alt="Customer Shopping Behavior Dashboard Preview">
+                <img src="https://via.placeholder.com/600x400/16213e/ffffff?text=Customer+Shopping+Behavior" alt="Customer Shopping Behavior Dashboard">
                 <div class="project-card-content">
                     <h3>Customer Shopping Behavior Dashboard</h3>
-                    <p>Interactive Power BI report analyzing 3,900 retail transactions. Explores revenue performance, customer segmentation by gender & subscription status, category trends, payment methods, and seasonality using DAX measures and dynamic slicers.</p>
+                    <p>Interactive Power BI report analyzing 3,900 retail transactions. Explores revenue, customer segmentation by gender & subscription status, category trends, payment methods, and seasonality using DAX measures and dynamic slicers.</p>
                     <div class="project-buttons">
                         <a href="https://github.com/Logic-m/customer-behavior-power-bi" target="_blank" class="btn">Documentation</a>
                         <a href="https://github.com/Logic-m/customer-behavior-power-bi" target="_blank" class="btn btn-secondary">View Project</a>
@@ -85,41 +424,14 @@
                 </div>
             </div>
 
-            <!-- Project 2 - Placeholder (update when ready) -->
+            <!-- Project 2 (placeholder) -->
             <div class="project-card">
-                <img src="assets/images/project-placeholder-2.jpg" alt="Project Two Preview">
+                <img src="https://via.placeholder.com/600x400/0f3460/ffffff?text=Coming+Soon" alt="Project Two">
                 <div class="project-card-content">
-                    <h3>Project Title Two</h3>
-                    <p>A brief description of your next project (e.g. sales analysis, churn prediction, or another Power BI dashboard).</p>
+                    <h3>More Projects Coming Soon</h3>
+                    <p>Additional Power BI and data analysis projects will be added here as they are completed.</p>
                     <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3 - Placeholder -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-3.jpg" alt="Project Three Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Three</h3>
-                    <p>A brief description of your third project.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4 - Placeholder -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="Project Four Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Four</h3>
-                    <p>A brief description of your fourth project.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                        <a href="https://github.com/Logic-m" target="_blank" class="btn">GitHub Profile</a>
                     </div>
                 </div>
             </div>
@@ -128,13 +440,12 @@
     </div>
 </section>
 
-<!-- SKILLS SECTION -->
+<!-- SKILLS -->
 <section id="skills" class="section">
     <div class="container">
         <h2>Technical Skillset</h2>
         <div class="skills-table">
             
-            <!-- Column 1: Data Visualization -->
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-chart-pie"></i>
@@ -148,7 +459,6 @@
                 </ul>
             </div>
 
-            <!-- Column 2: Data Analysis -->
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-search-plus"></i>
@@ -162,7 +472,6 @@
                 </ul>
             </div>
 
-            <!-- Column 3: Data Modeling & ETL -->
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-cogs"></i>
@@ -180,12 +489,11 @@
     </div>
 </section>
 
-<!-- CONTACT FORM SECTION -->
+<!-- CONTACT -->
 <section id="contact" class="section">
     <div class="container">
         <h2>Send me a message</h2>
         
-        <!-- Replace with your real email at formsubmit.co -->
         <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
             <p>Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
 
@@ -203,7 +511,7 @@
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+                <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
             </div>
             
             <button type="submit" class="btn">Send Message</button>
@@ -217,8 +525,6 @@
         <p>&copy; 2026 Mosimanegape Majasi. All rights reserved.</p>
     </div>
 </footer>
-
-<script src="assets/js/main.js"></script>
 
 </body>
 </html>
