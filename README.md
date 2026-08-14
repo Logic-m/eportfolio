@@ -1,187 +1,224 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mosimanegape Majasi | Data Analyst Portfolio</title>
+      
+    <!-- Add your favicon here. You can generate one at realfavicongenerator.net -->
+    <link rel="icon" type="image/png" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon-32x32.png">
+    
+    <!-- Google Fonts for Elegant Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Your Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-<img src="your-photo.jpg" width="150" height="150" style="border-radius: 50%;" alt="Profile photo" />
+<!-- HEADER SECTION -->
+<header>
+    <div class="container">
+        <h1>Mosimanegape Majasi</h1>
+        <p>Data Analyst | Power BI Developer | Business Intelligence</p>
+        <div class="social-links">
+            <!-- Update these links with your actual profiles -->
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Logic-m" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="[YOUR_YOUTUBE_URL]" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="assets/Mosimanegape_Majasi_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+        </div>
+    </div>
+</header>
 
-# Your Name Here
+<!-- NAVIGATION -->
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-### Data Analyst | Power BI & Python
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <!-- Replace with your profile photo in assets/images/ -->
+            <img src="assets/images/profile-placeholder.jpg" alt="Mosimanegape Majasi" class="profile-photo">
+            <div class="about-text">
+                <p>I'm a data analyst passionate about turning raw transactional data into clear, actionable insights. I specialize in building interactive Power BI dashboards that help stakeholders understand customer behavior, revenue drivers, and segmentation patterns.</p>
+                <p>My recent work focuses on retail customer analytics — analyzing purchasing patterns, subscription impact, category performance, and seasonal trends. I enjoy creating clean data models, writing effective DAX measures, and designing dashboards that support better business decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-Turning raw data into decisions — dashboards, EDA, and statistical storytelling.
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
 
-📍 Your City, Country &nbsp;|&nbsp; 📧 your.email@example.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://linkedin.com/in/yourprofile) &nbsp;|&nbsp; 💼 [Portfolio Site](https://yourwebsite.com)
+            <!-- Project 1 - Featured -->
+            <div class="project-card">
+                <!-- Add a screenshot of your dashboard (e.g. the one from the repo) to assets/images/ -->
+                <img src="assets/images/customer-shopping-behavior-dashboard.png" alt="Customer Shopping Behavior Dashboard Preview">
+                <div class="project-card-content">
+                    <h3>Customer Shopping Behavior Dashboard</h3>
+                    <p>Interactive Power BI report analyzing 3,900 retail transactions. Explores revenue performance, customer segmentation by gender & subscription status, category trends, payment methods, and seasonality using DAX measures and dynamic slicers.</p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/Logic-m/customer-behavior-power-bi" target="_blank" class="btn">Documentation</a>
+                        <a href="https://github.com/Logic-m/customer-behavior-power-bi" target="_blank" class="btn btn-secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Logic--m-181717?style=for-the-badge&logo=github)](https://github.com/Logic-m)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+            <!-- Project 2 - Placeholder (update when ready) -->
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-2.jpg" alt="Project Two Preview">
+                <div class="project-card-content">
+                    <h3>Project Title Two</h3>
+                    <p>A brief description of your next project (e.g. sales analysis, churn prediction, or another Power BI dashboard).</p>
+                    <div class="project-buttons">
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
+                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <!-- Project 3 - Placeholder -->
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-3.jpg" alt="Project Three Preview">
+                <div class="project-card-content">
+                    <h3>Project Title Three</h3>
+                    <p>A brief description of your third project.</p>
+                    <div class="project-buttons">
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
+                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                    </div>
+                </div>
+            </div>
 
-<br>
+            <!-- Project 4 - Placeholder -->
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-4.jpg" alt="Project Four Preview">
+                <div class="project-card-content">
+                    <h3>Project Title Four</h3>
+                    <p>A brief description of your fourth project.</p>
+                    <div class="project-buttons">
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
+                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                    </div>
+                </div>
+            </div>
 
-> ✏️ **Add a short bio here** — 2–3 sentences on who you are, your background, and what kind of analytics work excites you. e.g. *"I'm a data analyst focused on turning messy transactional and behavioral data into dashboards and insights that drive real decisions. Currently building my skills in Power BI, DAX, and Python-based EDA."*
+        </div>
+    </div>
+</section>
 
----
+<!-- SKILLS SECTION -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Technical Skillset</h2>
+        <div class="skills-table">
+            
+            <!-- Column 1: Data Visualization -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Data Visualization</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>Power BI</li>
+                    <li>Interactive Dashboards</li>
+                    <li>Data Storytelling</li>
+                    <li>Excel Dashboards</li>
+                </ul>
+            </div>
 
-<div align="center">
+            <!-- Column 2: Data Analysis -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-search-plus"></i>
+                    <h3>Data Analysis</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>SQL</li>
+                    <li>Python (Pandas)</li>
+                    <li>Exploratory Data Analysis</li>
+                    <li>Customer Segmentation</li>
+                </ul>
+            </div>
 
-## 🧰 Skills & Tools
+            <!-- Column 3: Data Modeling & ETL -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Data Modeling & ETL</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>Power Query (M)</li>
+                    <li>DAX</li>
+                    <li>Data Modeling</li>
+                    <li>ETL Processes</li>
+                </ul>
+            </div>
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+        </div>
+    </div>
+</section>
 
-`Exploratory Data Analysis` · `Data Cleaning` · `Data Visualization` · `Statistical Correlation Analysis` · `Customer Segmentation`
+<!-- CONTACT FORM SECTION -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Send me a message</h2>
+        
+        <!-- Replace with your real email at formsubmit.co -->
+        <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
+            <p>Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
 
-</div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
 
----
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Mosimanegape Majasi. All rights reserved.</p>
+    </div>
+</footer>
 
-## 📊 Project 1 — Customer Shopping Behavior Dashboard
+<script src="assets/js/main.js"></script>
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-**Power BI &nbsp;|&nbsp; Retail Analytics &nbsp;|&nbsp; Customer Segmentation**
-
-An interactive Power BI dashboard analyzing **3,900 retail transactions** to uncover revenue drivers, customer segments, and category performance trends. Built for stakeholders who need to move from a full customer base to an actionable, filtered segment in a few clicks.
-
-**What it does:**
-- Consolidates purchasing patterns across **product category, demographics, subscription status, and shipping preferences**
-- KPI cards for **Total Revenue, Total Customers, and Average Order Value**
-- Category performance via clustered column charts (revenue *and* transaction volume)
-- Payment method and seasonal breakdowns via bar charts
-- Four cross-filtering slicers: **Gender, Category, Subscription Status, Shipping Type**
-
-</td>
-<td width="45%" valign="top">
-
-<img src="Screenshot 2026-08-12 172008.png" width="100%" alt="Customer Shopping Behavior Dashboard" />
-
-<sub>Dashboard filtered to male, subscribed customers — 1,053 customers generating $62.65K in revenue.</sub>
-
-</td>
-</tr>
-</table>
-
-**💡 Key insight from the segment analysis**
-
-Filtering to male + subscribed customers reveals that **AOV stays flat** ($59.49 vs. $59.76 overall) — meaning subscription revenue is driven by *volume and retention*, not bigger baskets. Category rankings (Clothing → Accessories → Footwear → Outerwear) and seasonality (Fall/Summer strongest) stay consistent across segments, but **payment method mix shifts** — a thread worth digging into further.
-
-**DAX highlights:**
-```DAX
-Total Revenue = SUM(customer_shopping_behavior[Purchase Amount (USD)])
-Average Order Value = DIVIDE([Total Revenue], [Total Transactions])
-Revenue per Customer = DIVIDE([Total Revenue], [Total Customers])
-```
-Plus supporting measures for discount/promo impact, loyalty & repeat-purchase behavior, satisfaction scoring, and demographic breakdowns.
-
-**Planned next steps:** a Loyalty & Satisfaction page, a geographic revenue view, calendar-ordered seasonality, and expanded slicers (Payment Method, Discount Applied).
-
-<div align="center">
-
-[![View Repository](https://img.shields.io/badge/View_Full_Project-181717?style=for-the-badge&logo=github)](https://github.com/Logic-m/customer-behavior-power-bi)
-
-</div>
-
----
-
-## 🏘️ Project 2 — Boston Housing: EDA & Data Visualization
-
-**Python &nbsp;|&nbsp; pandas · matplotlib · seaborn &nbsp;|&nbsp; Codveda Data Analytics Internship**
-
-A full exploratory data analysis of the classic **Boston Housing dataset**, covering data cleaning, statistical exploration, and visual storytelling to identify what actually drives median home value (`MEDV`).
-
-### 🧹 Data Cleaning
-Loaded the raw dataset, handled missing values, removed duplicates, and standardized formats → produced `cleaned_house_data.csv`.
-
-### 🔍 Exploratory Data Analysis
-
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="eda_histograms.png" width="100%" alt="Histograms of All Features" />
-<sub>Most features are right-skewed (CRIM, LSTAT); RM and MEDV are near-normal</sub>
-</td>
-<td width="50%" align="center">
-<img src="eda_boxplot_medv.png" width="100%" alt="Boxplot of MEDV" />
-<sub>Median home value clusters around $21–22K, with high-value outliers above $37K</sub>
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="eda_correlation_heatmap.png" width="70%" alt="Correlation Heatmap" />
-</div>
-
-**Strongest correlations with house price (MEDV):**
-
-| Feature | Correlation | Interpretation |
-|:---:|:---:|---|
-| `RM` (rooms) | **+0.70** | More rooms → higher price |
-| `LSTAT` (% lower status) | **−0.74** | Higher % lower-status population → lower price |
-| `PTRATIO` | −0.51 | Higher pupil-teacher ratio → lower price |
-| `INDUS` | −0.48 | More industrial land → lower price |
-| `TAX` | −0.47 | Higher tax rate → lower price |
-| `NOX` | −0.43 | More pollution → lower price |
-
-<div align="center">
-<img src="eda_scatter_rm_medv.png" width="60%" alt="RM vs MEDV Scatter" />
-<br><sub>Clear positive linear relationship between room count and home value.</sub>
-</div>
-
-### 📈 Visualization Deep Dives
-
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="viz_barplot_chas_medv.png" width="100%" alt="CHAS Barplot" />
-<br><sub><b>Charles River proximity:</b> Riverside homes average ~$28K vs. ~$22K for others.</sub>
-</td>
-<td width="33%" align="center">
-<img src="viz_scatter_tax_medv.png" width="100%" alt="TAX vs MEDV Scatter" />
-<br><sub><b>Property tax vs. price:</b> High-tax cluster (TAX≈666) spans a wide, often lower, price range.</sub>
-</td>
-<td width="33%" align="center">
-<img src="viz_linechart_lstat_medv.png" width="100%" alt="LSTAT vs MEDV Line Chart" />
-<br><sub><b>Socioeconomic trend:</b> Prices fall sharply as % lower-status population rises.</sub>
-</td>
-</tr>
-</table>
-
-**Key takeaways:** Room count and neighborhood socioeconomic status are the strongest predictors of price; river-adjacent location adds a premium; crime, tax, industrial density, and pupil-teacher ratio all correlate with lower values. The cleaned dataset is ready for predictive modeling (regression) in later project stages.
-
-<div align="center">
-
-[![View Repository](https://img.shields.io/badge/View_Full_Project-181717?style=for-the-badge&logo=github)](https://github.com/Logic-m/stock-Analytics)
-
-</div>
-
----
-
-<div align="center">
-
-## 📬 Let's Connect
-
-If any of these projects are relevant to a role or collaboration you have in mind, I'd love to hear from you.
-
-[![Email](https://img.shields.io/badge/Email-your.email@example.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Logic-m)
-
-<sub>⭐ If you found these projects interesting, consider starring the repos!</sub>
-
-</div>
-
----
-
-> **Setup notes**
-> 1. Replace `your-photo.jpg` at the top with your actual photo, placed in this repo's root (a square image ~400×400px works best).
-> 2. Fill in your **name, bio, location, email, and social links** in the header and contact section above.
-> 3. Make sure the chart/screenshot images (`Screenshot 2026-08-12 172008.png`, `eda_histograms.png`, `eda_boxplot_medv.png`, `eda_correlation_heatmap.png`, `eda_scatter_rm_medv.png`, `viz_barplot_chas_medv.png`, `viz_scatter_tax_medv.png`, `viz_linechart_lstat_medv.png`) are in this repo's root, or update the paths if you place them in an `/images` folder.
-> 4. GitHub does not render `<style>` blocks or custom CSS in READMEs — this layout uses supported HTML tags (`<div align>`, `<table>`, `<img width>`) and [shields.io](https://shields.io) badges to achieve a styled look that works reliably.
+</body>
+</html>
