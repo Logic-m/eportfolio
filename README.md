@@ -43,7 +43,7 @@ This portfolio showcases projects completed across different levels of complexit
 A company sales dashboard that manages a single-screen view of overall sales performance, replacing the need to dig through raw order data or multiple PivotTables. Top KPI cards summarize total revenue, quantity sold, and average order value, while charts break down revenue by sales channel, month, product category, region, and customer type — with interactive slicers for full drill-down.
 
 **Built with:** `Excel`
-[View Report →](#)
+[View Report →]()
 
 ---
 
