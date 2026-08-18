@@ -1,4 +1,4 @@
-#  LOGIC Data Analyst Portfolio
+#   Data Analyst Portfolio
 
 📊 **Data Analyst** | Business Intelligence & Data Analytics
 
