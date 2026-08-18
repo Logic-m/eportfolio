@@ -43,7 +43,7 @@ This portfolio showcases projects completed across different levels of complexit
 A company sales dashboard that manages a single-screen view of overall sales performance, replacing the need to dig through raw order data or multiple PivotTables. Top KPI cards summarize total revenue, quantity sold, and average order value, while charts break down revenue by sales channel, month, product category, region, and customer type — with interactive slicers for full drill-down.
 
 **Built with:** `Excel`
-[View Report →]()
+[View Report →](#)
 
 ---
 
@@ -91,9 +91,17 @@ A Power BI dashboard that analyzed 667 telecom customers (14.7% overall churn ra
 
 ### 🏠 Level 1 House Price Prediction: Exploratory Data Analysis
 
-![House Price EDA Screenshot](./images/house-price-eda.png)
+![House Price EDA Screenshot](./images/Screenshot%202026-08-12%20172008.png)
 
 A two-stage data science workflow on the 506-record Boston Housing dataset: first a cleaning/preprocessing pipeline handling raw whitespace-delimited CSV, missing values, and duplicates (deferred/typed) that outputs a cleaned CSV, followed by an exploratory data analysis stage using pandas, numpy, matplotlib, and seaborn to generate summary statistics, distribution and relationship visualizations, and correlation analysis. Key findings: RM positively correlated with median home value (MEDV), while LSTAT/PTRATIO negatively correlated with it — the original dataset had no missing values or duplicates.
+
+| | | |
+|---|---|---|
+| ![Boxplot of MEDV](./images/eda_boxplot_medv.png) | ![Correlation Heatmap](./images/eda_correlation_heatmap.png) | ![Histograms](./images/eda_histograms.png) |
+| Boxplot — MEDV | Correlation heatmap | Feature histograms |
+
+![Scatter: RM vs MEDV](./images/eda_scatter_rm_medv.png)
+*Rooms (RM) vs. median home value (MEDV)*
 
 **Built with:** `Python` `Pandas` `Matplotlib` `Seaborn`
 [View Full Notebook →](#)
@@ -102,9 +110,12 @@ A two-stage data science workflow on the 506-record Boston Housing dataset: firs
 
 ### 📊 Basic Data Visualization
 
-![Basic Data Visualization Screenshot](./images/basic-data-visualization.png)
-
 Building on the previously cleaned Boston housing dataset (Task 3 of the Codveda Technologies internship), this project creates basic visualizations using Python, pandas, matplotlib, and seaborn — including a bar plot comparing average home values for riverside vs. non-riverside properties, a line chart tracking home values across building-age groups, and a scatter plot of room proximity, with all plots exported as high-quality images to a plots/ folder and generated via a single Jupyter notebook that runs on the 506-row, 14-feature cleaned dataset.
+
+| | | |
+|---|---|---|
+| ![Bar plot: CHAS vs MEDV](./images/viz_barplot_chas_medv.png) | ![Line chart: LSTAT vs MEDV](./images/viz_linechart_lstat_medv.png) | ![Scatter: TAX vs MEDV](./images/viz_scatter_tax_medv.png) |
+| Riverside vs. non-riverside (CHAS) home values | Home values by LSTAT | Tax rate vs. MEDV |
 
 ---
 
