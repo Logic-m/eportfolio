@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="mosimanegapemj23@gmail.com">
+  <a href="mailto:mosimanegapemj23@gmail.com">
     <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail" width="50" height="50" style="border-radius:50%;"/>
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 
 ## Contact
 
-Feel free to reach out via [LinkedIn](#), [Email](#), or [GitHub](#) to connect or discuss data analytics work.
+Feel free to reach out via [LinkedIn]([#](https://www.linkedin.com/in/mosimanegape-majasi-272165296/)), [Email](mailto:mosimanegapemj23@gmail.com), or [GitHub](https://github.com/Logic-m) to connect or discuss data analytics work.
 
 ---
 
