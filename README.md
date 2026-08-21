@@ -48,7 +48,7 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 Data analyst turning raw numbers into clear, actionable insights from Python pipelines to interactive dashboards and predictive models. This portfolio is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
 <p align="center">
 <p align="center">
-  <a href="(https://github.com/Logic-m/customer-behavior-power-bi)">View Full Report →</a>
+  <a href="https://github.com/Logic-m/customer-behavior-power-bi">View Full Report →</a>
 </p>
 ---
  
@@ -59,7 +59,7 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 </p>
 Data analyst turning raw numbers into clear, actionable insights from Python pipelines to interactive dashboards and predictive models. This portfolio is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
 <p align="center">
-  <a href="https://github.com/your-username/your-repo-2">View Full Report →</a>
+  <a href="https://github.com/Logic-m/customer-behavior-power-bi">View Full Report →</a>
 </p>
 ---
  
