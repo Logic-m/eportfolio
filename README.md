@@ -41,6 +41,22 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 ## Projects
 
 ### Project Title 1
+# Customer Shopping Behavior Dashboard
+
+A Power BI report analyzing customer purchasing patterns, revenue performance, and customer segmentation from retail transaction data.
+
+## Overview
+
+This dashboard provides a consolidated view of customer shopping behavior across product categories, demographics, subscription status, and shipping preferences. It is built to help stakeholders quickly identify revenue drivers, customer segments, and category performance trends.
+
+## Data Source
+
+| Attribute       | Detail                                  |
+|-----------------|------------------------------------------|
+| File            | `customer_shopping_behavior.csv`         |
+| Records         | 3,900 customer transactions              |
+| Grain           | One row per transaction                  |
+| Table name      | `customer_shopping_behavior`             |
  
 <p align="center">
   <img src="Screenshot 2026-08-12 172008.png" alt="Project 1 Placeholder" width="750"/>
