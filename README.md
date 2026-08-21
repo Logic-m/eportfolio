@@ -53,7 +53,7 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 ### Project Title 2
  
 <p align="center">
-  <img src="./images/project-placeholder-2.png" alt="Project 2 Placeholder" width="1100"/>
+  <img src="./images/project-placeholder-2.png" alt="Project 2 Placeholder" width="800"/>
 </p>
 <p align="center">
   <a href="https://github.com/your-username/your-repo-2">View Full Report →</a>
