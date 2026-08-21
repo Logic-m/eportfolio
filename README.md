@@ -43,10 +43,12 @@ Data analyst turning raw numbers into clear, actionable insights from Python pip
 ### Project Title 1
  
 <p align="center">
-  <img src="Screenshot 2026-08-12 172008.png" alt="Project 1 Placeholder" width="1100"/>
+  <img src="Screenshot 2026-08-12 172008.png" alt="Project 1 Placeholder" width="750"/>
 </p>
+Data analyst turning raw numbers into clear, actionable insights from Python pipelines to interactive dashboards and predictive models. This portfolio is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
 <p align="center">
-  <a href="[https://github.com/your-username/your-repo-1](https://github.com/Logic-m/customer-behavior-power-bi)">View Full Report →</a>
+<p align="center">
+  <a href="(https://github.com/Logic-m/customer-behavior-power-bi)">View Full Report →</a>
 </p>
 ---
  
