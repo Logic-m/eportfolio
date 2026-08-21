@@ -82,7 +82,7 @@ This filtered example illustrates the dashboard's core value: category and seaso
 ### Project Title 2
  
 <p align="center">
-  <img src="./images/project-placeholder-2.png" alt="Project 2 Placeholder" width="800"/>
+  <img src="eda_histograms.png" alt="Project 2 Placeholder" width="800"/>
 </p>
 Data analyst turning raw numbers into clear, actionable insights from Python pipelines to interactive dashboards and predictive models. This portfolio is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
 <p align="center">
