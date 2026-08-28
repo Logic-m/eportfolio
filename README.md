@@ -108,8 +108,20 @@ The median house price is around $21–22k. There are many high-value outliers a
 </td>
 <td width="50%">
 
-Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
+**Key Correlations with MEDV (House Price):**
+| Feature | Correlation with MEDV | Interpretation                  |
+|---------|-----------------------|---------------------------------|
+| RM      | **+0.70**             | Strong positive – more rooms → higher price |
+| LSTAT   | **-0.74**             | Strong negative – higher % lower status → lower price |
+| PTRATIO | -0.51                 | Moderate negative               |
+| INDUS   | -0.48                 | Moderate negative               |
+| TAX     | -0.47                 | Moderate negative               |
+| NOX     | -0.43                 | Moderate negative               |
 
+**Other strong correlations:**
+- `RAD` ↔ `TAX` (0.91)
+- `NOX` ↔ `INDUS` (0.76)
+- `AGE` ↔ `DIS` (-0.75)
 
 </td>
 </tr>
