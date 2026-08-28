@@ -81,13 +81,22 @@ This filtered example illustrates the dashboard's core value: category and seaso
  
 ### Project Title 2
  
-<p align="center">
-  <img src="eda_histograms.png" alt="Project 2 Placeholder" width="800"/>
-</p>
-Data analyst turning raw numbers into clear, actionable insights from Python pipelines to interactive dashboards and predictive models. This portfolio is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
-<p align="center">
-  <a href="https://github.com/Logic-m/customer-behavior-power-bi">View Full Report →</a>
-</p>
+# Project Title 2
+
+<table>
+<tr>
+<td width="50%">
+  <img src="eda_histograms.png" alt="Project 2 Placeholder" width="100%"/>
+</td>
+<td width="50%">
+
+Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
+
+[View Full Report →](https://github.com/Logic-m/customer-behavior-power-bi)
+
+</td>
+</tr>
+</table>
 ---
  
 ### Project Title 3
