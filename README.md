@@ -94,7 +94,8 @@ Data analyst turning raw numbers into clear, actionable insights — from Python
 </td>
 <td width="50%">
 
-Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
+Insight:
+The median house price is around $21–22k. There are many high-value outliers above $37k (capped at $50k in the original dataset).
 
 
 </td>
