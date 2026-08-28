@@ -133,14 +133,14 @@ The median house price is around $21–22k. There are many high-value outliers a
 </td>
 <td width="50%">
 
-Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
+Insight:
 
-<a href="https://github.com/Logic-m/portfolio">View Full Report →</a></p>
-
+Clear positive linear relationship. Houses with more rooms tend to have significantly higher median values.
 
 </td>
 </tr>
 </table>
+<a href="https://github.com/Logic-m/portfolio">View Full Report →</a></p>
 ---
  
 ### Project Title 3
