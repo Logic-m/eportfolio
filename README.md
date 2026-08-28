@@ -71,7 +71,8 @@ Key observations from this segment:
 
  
 # Project Title 2
-#Codveda Data Analytics Internship
+# Codveda Data Analytics Internship
+
 Exploratory Data Analysis (EDA)
 
 <table>
@@ -95,6 +96,7 @@ Data analyst turning raw numbers into clear, actionable insights — from Python
 <td width="50%">
 
 Insight:
+
 The median house price is around $21–22k. There are many high-value outliers above $37k (capped at $50k in the original dataset).
 
 
