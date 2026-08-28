@@ -55,13 +55,9 @@ The screenshot above shows the report filtered to **male, subscribed customers**
 
 Key observations from this segment: 
 - **Average order value holds steady**: at $59.49, this segment's AOV is almost identical to the overall average of $59.76 — male subscribers aren't spending meaningfully more or less per order than the base population, so subscription revenue here is being driven by volume and retention rather than basket size.
-
 - **100% subscription concentration confirms the filter is working as intended**: the donut chart correctly shows all customers in this view as subscribers, validating that the Subscription Status and Gender slicers are filtering the whole page consistently.
-
 -  **Category ranking is unchanged from the full dataset**: Clothing still leads both *Revenue by Category* and *Sales by Category*, followed by Accessories, Footwear, and Outerwear — this segment's category preferences mirror the overall customer base rather than diverging from it.
-
 -  **Payment method mix shifts slightly**: Debit Card now leads usage, followed by PayPal, Credit Card, and Venmo — a different order and an additional method (Venmo) compared to the unfiltered view, suggesting payment preference may vary somewhat by demographic segment and is worth a closer look.
-  
 -   **Seasonality pattern is consistent**: Fall and Summer remain the strongest purchase periods for this segment, mirroring the overall seasonal trend.
 
   This filtered example illustrates the dashboard's core value: category and seasonal patterns are broadly stable across segments, while payment method preference shows some segment-level variation — a useful thread for further investigation (e.g. comparing payment mix across all four gender/subscription combinations).
