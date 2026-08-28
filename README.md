@@ -71,6 +71,7 @@ Key observations from this segment:
 
  
 # Project Title 2
+Exploratory Data Analysis (EDA)
 
 <table>
 <tr>
