@@ -88,7 +88,7 @@ Data analyst turning raw numbers into clear, actionable insights — from Python
 <table>
 <tr>
 <td width="50%">
-  <img src="eda_histograms.png" alt="Project 2 Placeholder" width="100%"/>
+  <img src="eda_boxplot_medv.png" alt="Project 2 Placeholder" width="100%"/>
 </td>
 <td width="50%">
 
