@@ -120,6 +120,8 @@ Data analyst turning raw numbers into clear, actionable insights — from Python
 
 Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
 
+<a href="https://github.com/Logic-m/portfolio">View Full Report →</a></p>
+
 
 </td>
 </tr>
@@ -133,7 +135,7 @@ Data analyst turning raw numbers into clear, actionable insights — from Python
 </p>
 <p align="center">
   <a href="https://github.com/your-username/your-repo-3">View Full Report →</a>
-</p>
+</p>https://github.com/Logic-m/portfolio
 
 
 
