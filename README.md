@@ -66,10 +66,10 @@ Key observations from this segment:
 
 
  
-# Project Title 2
-# Codveda Data Analytics Internship
+## Project Title 2
+## Codveda Data Analytics Internship
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 <table>
 <tr>
