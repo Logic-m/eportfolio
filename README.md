@@ -78,8 +78,23 @@ Key observations from this segment:
 </td>
 <td width="50%">
 
-Data analyst turning raw numbers into clear, actionable insights — from Python pipelines to interactive dashboards and predictive models. This project is a snapshot of that work, ranging from foundational EDA to machine learning and NLP.
+** Interpretation of Histograms**
 
+- **CRIM, ZN, CHAS:** Extremely right-skewed — most towns have near-zero crime, no large-lot zoning, and don't border the Charles River. Only a small subset of properties differ from this norm.
+
+- **INDUS, RAD, TAX, PTRATIO:** Bimodal distributions — these show two clusters, largely driven by the same group of ~132 properties with high industrial land use, RAD=24, and TAX≈666. This overlap explains their strong correlation with each other.
+
+- **RM:** Roughly bell-shaped and centered around 6 rooms — the most normally distributed feature in the dataset.
+
+- **AGE:** Left-skewed — a large share of homes are very old (built before 1940), with fewer newer properties.
+
+- **DIS, LSTAT:** Right-skewed — most properties are close to employment centers and have modest lower-status population percentages, with a smaller number of higher-value outliers.
+
+- **B:** Heavily left-skewed — most tracts cluster near the maximum value, with a thin spread of lower values.
+
+- **MEDV (target):** Right-skewed, peaking around $20,000–21,000, with a distinct spike at $50,000 indicating the price data is capped rather than naturally occurring.
+
+**Takeaway:** Many features are skewed or bimodal rather than normally distributed, which suggests log-transforming skewed variables (CRIM, ZN, LSTAT) and addressing the capped MEDV values before building a regression model.
 
 </td>
 </tr>
